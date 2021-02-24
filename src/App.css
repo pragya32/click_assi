@@ -1,38 +1,197 @@
-.App {
+body {
+  background-color: #e5e5e5;
+}
+.head {
+  position: absolute;
+  height: 60px;
+  width: 280px;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+.image {
+  position: absolute;
+  width: 82px;
+  height: 35px;
+  left: 80px;
+  top: 15px;
+}
+.content {
+  position: absolute;
+  width: 280px;
+  height: 298px;
+  left: 0px;
+  top: 70px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.grey {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 23px;
+  color: #020235;
+  opacity: 0.3;
+}
+.black {
+  position: absolute;
+  left: 10px;
+  top: 33px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 23px;
+  color: #020235;
+}
+.link {
+  position: absolute;
+  left: 10px;
+  top: 55px;
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(73, 102, 233);
+}
+.daydate {
+  margin-top: 37px;
+  font-weight: normal;
+}
+.day {
+  margin-left: 10px;
+  color: #3cc663;
+  font-size: 25px;
+  font-weight: inherit;
+  font-family: "Roboto", sans-serif;
+}
+.date {
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #3cc663;
+  font-family: "Roboto", sans-serif;
+}
+.Shipped {
+  margin-left: 10px;
+  font-weight: bold;
+  color: 000000;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  opacity: 0.5;
+  font-family: "Roboto", sans-serif;
+}
+.status {
+  margin-left: 10px;
+  text-decoration: none;
+  font-style: inherit;
+  font-size: 12px;
+  color: rgb(73, 102, 233);
+}
+.view {
+  margin-top: 20px;
+  height: 40px;
+  width: 160px;
+  font-size: 11.5px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  color: rgb(73, 102, 233);
+  padding-left: 10px;
+  border-top: 0.1px solid grey;
+}
+.action {
+  height: 40.5px;
+  width: 120px;
+  font-size: 12px;
   text-align: center;
+  background-color: blue;
+  border: none;
+  color: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn1 {
+  margin-top: 10px;
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  width: 280px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn2 {
+  margin-top: 10px;
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  width: 250px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn3 {
+  margin-top: 10px;
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  width: 250px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.FaAngleRight1 {
+  margin-left: 70px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FaAngleRight2 {
+  margin-left: 50px;
+}
+.FaAngleRight3 {
+  margin-left: 100px;
+}
+.product {
+  margin-top: 10px;
+}
+.product {
+  height: 150px;
+  width: 280px;
+  background-color: white;
+  margin-top: 10px;
+}
+.column {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.order-heading {
+  margin-top: 5px;
+}
+.order-image {
+  width: 90px;
+  height: 90px;
+  margin-top: -12px;
+  border-radius: 5px;
+}
+.product-link {
+  font-size: 10px;
+  color: rgb(73, 102, 233);
+  text-decoration: none;
+}
+.desc-heading {
+  margin-top: 10px;
+  margin-left: -4px;
+}
+.text {
+  color: grey;
 }
